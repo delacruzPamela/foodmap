@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Foodmap</title>
-    <!--Enlazamos archivo main para darle diseño a nuestro layout(Estrctura)-->
-    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Foodmap</title>
+  <!--Framework bootstrap CSS-->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <!--Fonts google-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <!--CSS Personalizado-->
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    
-    <!--Enlazamos JQuery-->
-    <script src="vendors/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <!--Enlazamos app.js para darle funcionabilidad a nuestra estructura-->
-    <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+<body class="container-flex-column vh100">
+  <!--index principal-->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="letter-responsive logo">Foodmap</p>
+      </div>    
+    </div>
+  </div>
+  <!--Enlazamos bootstrap grillas-->
+  <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <!--Enlazamos JQuery-->
+  <script type="text/javascript" src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!--Enlazamos app.js para darle funcionabilidad a nuestra estructura-->
+  <script type="text/javascript" src="js/app.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/data.js" charset="utf-8"></script>
+
 </body>
 </html>

@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+/*Clases generales */
+body {
+  font-family: 'Raleway', sans-serif !important;
+  background-color: rgb(24, 23, 23);
+  text-align: center;
+  margin-top: 50%;
+  }
+
+.title, .logo {
+  color: orange;
+  font-size: 3rem;
+}  
+
+.container-flex-row {
+  display: flex;
+  justify-content: space-between;   
+ }
+
+.container-flex-column {
+  display: flex;
+	flex-direction:column;
+  justify-content: center;
+	padding: 2em;
+  }
+ 
+.vh100 {
+  height: 100vh;
+  }
