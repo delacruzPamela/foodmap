@@ -1,35 +1,44 @@
+/* Clases generales */
 * {
-  font-family: sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   }
 
-/*Clases generales */
 body {
   font-family: 'Raleway', sans-serif !important;
-  background-color: rgb(24, 23, 23);
   text-align: center;
-  margin-top: 50%;
-  }
-
-.title, .logo {
+  background-color: rgb(24, 24, 24);
   color: orange;
-  font-size: 3rem;
-}  
+}
 
-.container-flex-row {
-  display: flex;
-  justify-content: space-between;   
- }
+/* STYLE FOR THE PRINCIPAL INDEX*/
+/* redireccione a diferentes pantalla */
+.splash {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-.container-flex-column {
-  display: flex;
-	flex-direction:column;
-  justify-content: center;
-	padding: 2em;
-  }
- 
-.vh100 {
-  height: 100vh;
-  }
+/* posiciona el logo 'Foodmap al centro de la web-app' */
+#logo {
+  font-size: 5rem;
+  margin: 5em auto auto auto;  
+}
+
+/* Loading*/
+.loading {
+  width: auto;
+  height: 80px;
+}
+
+/*STYLE FOR THE FILTER RESTAURANT*/
+
+/* STYLE FOR THE MOUSEOVER */
+
+/* STYLE FOR THE MODAL - bootstrap */
+
