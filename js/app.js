@@ -2,7 +2,7 @@
 $(function() {
   setTimeout(function() { 
     window.location.href = 'views/restaurante.html';
-  }, 3000);
+  }, 2000);
 });
 
 

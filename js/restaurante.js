@@ -1,8 +1,15 @@
-//
+// Slider
+$((function() {
+  $('.myCarousel').carousel({
+    interval: 1000
+  });
+})
+
+/*Accediendo a la data*/
 $(function() {
   var $filtrarRestaurant = $('#filtrarRestaurant');
-  var $imagesRestaurant = $('div.imagesRestaurant');
-  $.each(data, function(district, restaurant) {
+  var $imagesRestaurant = $('div.restaurant-container');
+   $.each(data, function(district) {
     if ($filtrarRestaurant.val() === district) {
       $('h2').text(key);
       var listaRestaurante = data[district];
@@ -12,4 +19,5 @@ $(function() {
     };
   });
 });
+
 
