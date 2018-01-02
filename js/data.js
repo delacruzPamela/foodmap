@@ -1,16 +1,16 @@
 var data = {
   'Cercado de Lima': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Aguacate': {
+      'logo': '../assets/images/logo/aguacate-logo.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
       'money': '$',
-      'image': 'assets/images/platos/trucha.jpg',
+      'image': '../assets/images/platos/segundos/s1.jpg',
       'active': true,
       'platos': [ 
         {
-          'Pachamanca a la olla': 'assets/images/platos/pachamanca.jpg',
+          'Pachamanca a la olla': '/assets/images/platos/pachamanca.jpg',
           'Humitas': 'assets/images/platos/humitas.jpg',
           'Trucha Frita': 'assets/images/platos/trucha.jpg',
           'Caldo de cabeza': 'assets/images/platos/caldo.jpg',
@@ -18,13 +18,13 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Perú Gourmet': {
+      'logo': '../assets/images/logo/gourmet-lima.png',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
       'money': '$',
-      'image': 'assets/images/platos/trucha.jpg',
+      'image': '../assets/images/platos/segundos/s2.jpg',
       'active': true,
       'platos': [ 
         {
@@ -38,8 +38,8 @@ var data = {
   },
   
   'Jesus Maria': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Huaca Pucllana': {
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -56,8 +56,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Mangos': {
+      'logo': '../assets/images/logo/mangos-miraflores.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -76,8 +76,8 @@ var data = {
   },
      
   'San Isidro': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Puro Perú': {
+      'logo': '../assets/images/logo/puro-jm.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -94,8 +94,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Perú Sabe': {
+      'logo': '../assets/images/logo/sabe-miraflores.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -114,8 +114,8 @@ var data = {
   },
   
   'La Victoria': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Sr. Saltado': {
+      'logo': '../assets/images/logo/saltado-miraflores.png',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -132,8 +132,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Tambo': {
+      'logo': '../assets/images/logo/tambo-si.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -152,8 +152,8 @@ var data = {
   },
   
   'Barranco': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Tanta': {
+      'logo': '../assets/images/logo/tanta-olivos.png',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -170,8 +170,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Barranco restaurante': {
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -190,8 +190,8 @@ var data = {
   },
   
   'Lince': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Lince restaurante-1': {
+      'logo': '../assets/images/logo/gourmet-lima.png',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -208,8 +208,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Lince restaurante-2': {
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -228,8 +228,8 @@ var data = {
   },
      
   'Pueblo Libre': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Pueblo libre-1 ': {
+      'logo': '../assets/images/logo/tanta.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -246,8 +246,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Pueblo libre-2': {
+      'logo': '../assets/images/logo/puro.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -266,8 +266,8 @@ var data = {
   },
   
   'Surquillo': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Surquillo-1': {
+      'logo': '../assets/images/logo/sabe.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -284,8 +284,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Surquillo-2': {
+      'logo': '../assets/images/logo/mangos.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -304,8 +304,8 @@ var data = {
   },
   
   'Magdalena': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Magdalena-1': {
+      'logo': '../assets/images/logo/gourmet-lima.png',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -322,8 +322,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Magdalena-2': {
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -342,8 +342,8 @@ var data = {
   },
   
   'San Borja': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'San borja-1': {
+      'logo': '../assets/images/logo/tanta.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -360,8 +360,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'San borja-2': {
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -380,8 +380,8 @@ var data = {
   },
      
   'Surco': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Surco - Perú gourmet': {
+      'logo': '../assets/images/logo/gourmet-lima.png',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -399,7 +399,7 @@ var data = {
     },
   
     'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+      'logo': '../assets/images/logo/huaca-lima.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -418,8 +418,8 @@ var data = {
   },
   
   'Miraflores': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Miraflores-Mangos': {
+      'logo': '../assets/images/logo/mangos-miraflores.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -436,8 +436,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Miraflores - Sr. Saltado': {
+      'logo': '../assets/images/logo/saltado.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -456,8 +456,8 @@ var data = {
   },
   
   'San Juan de lurigancho': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'SJL - Aguacate ': {
+      'logo': '../assets/images/logo/aguacate-logo.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -474,8 +474,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'SJL - Tambo': {
+      'logo': '../assets/images/logo/tambo.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -494,8 +494,8 @@ var data = {
   },
   
   'Comas': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Comas - Tanta': {
+      'logo': '../assets/images/logo/tanta.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -512,8 +512,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Comas - Puro Perú': {
+      'logo': '../assets/images/logo/puro.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -532,8 +532,8 @@ var data = {
   },
      
   'Los Olivos': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'Olivos - Perú gourmet': {
+      'logo': '../assets/images/logo/sabe.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -550,8 +550,8 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'Olivos - Sabe': {
+      'logo': '../assets/images/logo/sabe-miraflores.jpg',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
@@ -570,8 +570,8 @@ var data = {
   },
   
   'San Martin': {
-    'Perú gourmet': {
-      'logo': 'assets/images/logo/gourmet-lima.png',
+    'SM - Aguacate': {
+      'logo': '../assets/images/logo/aguacate.jpg',
       'region': 'Sierra',
       'stars': 3,
       'addres': 'Av. 2 de mayo',
@@ -588,13 +588,13 @@ var data = {
       ],
     },
   
-    'Huaca Pucllana': {
-      'logo': 'assets/images/logo/huaca-lima.jpg',
+    'SM - Tanta': {
+      'logo': '../assets/images/logo/tanta-olivos.png',
       'region': 'Costa',
       'stars': 4,
       'addres': 'Jr. Campo del marte n°123',
       'money': '$',
-      'image': 'assets/images/platos/trucha.jpg',
+      'image': '../assets/images/platos/trucha.jpg',
       'active': true,
       'platos': [ 
         {

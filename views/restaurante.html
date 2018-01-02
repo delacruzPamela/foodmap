@@ -10,10 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!--CSS Personalizado-->
   <link rel="stylesheet" href="../css/main.css">
-  <title>Restaurante</title>
+  <title>Foodmap-Restaurante</title>
 </head>
 <body>
-  <!--SECTION HEADER-->
+  <!-- SECTION HEADER (NAVIGATOR, CARUSEL, INPUT FILTER)************************** -->
   <header class="bg-reverse">
     <!--NAVIGATOR-->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -55,59 +55,44 @@
         <!-- Formulario Filtrar restaurantes -->
         <form class="" id="searchForm">
           <div class="form-group col-sm-4 col-sm-offset-4">
-            <div class="filtrarRestaurant input-group input-group-lg center-block">
+            <div class="filtrarRestaurant input-group-lg center-block">
               <h3 class="letter-white">Encuentra los mejores restaurantes de comida peruana cerca a ti</h3>
-              <input type="text" class="form-control" placeholder="Ejm. Miraflores.">
+              <input id="txtDistrito" type="text" class="form-control" placeholder="Ejm. Miraflores.">
+              <br>
               <span class="input-group-btn">
-                <button class="btn btn-success btn-lg active" type="button">
-                  <span class="glyphicon glyphicon-search"></span>
-                </button>
+                <button class="clicbtn btn btn-success btn-lg active" type="button">Buscar</button>
               </span>
             </div>
           </div>
         </form>
-          <!-- <div class="filtrar">
-              <div class=" col-xs-12 ">
-                <div class="col-xs-12 col-md-6 col-md-offset-3 filer">
-                  <h2 class="letter-white">Encuentra los mejores restaurantes de cocina peruana en Lima</h2>
-                  <form class="" id="searchForm">
-                    <div id="filtrarRestaurant" class="form-group input-group">
-                      <input type="text" class="form-control " placeholder="Selecciona un distrito...">
-                      <span class="input-group-btn">
-                      <button class="btn btn-success btn-lg active" type="button">
-                        <span class="glyphicon glyphicon-search"></span>
-                      </button>
-                      </span>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div> -->
-      <!-- </div></div> -->
       </div>
     </div>
   </header>
 
+  <!-- SECTION MAIN (FILTER RESTAURANT)******************************************* -->
   <main>
-    <!-- SECCION COSTA-->
+    <!-- LISTA DE RESTAURANTES LLAMADO DESDE LA DATA y JQUERY-->
     <section>
-      <div class="container hide">
+      <div id="list-restaurant" class="container">
         <div class="row">
-          <div id="restaurant-container" class="col-xs-12 col-md-12" >
+          <div class="restaurant-container">
+
           </div>
         </div>
     </section>
   </main>
+
   <footer>
-    <p></p>
+    <div class="foot">    
+    </div>
   </footer>
-  
-  <!--Enlazamos app.js para darle funcionabilidad a nuestra estructura-->
-  <script type="text/javascript" src="../js/restaurante.js"></script>
+
   <!--Enlazamos JQuery-->
   <script type="text/javascript" src="../vendors/jQuery/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
   <!--Base de datos JSON-->
   <script src='../js/data.js'></script>
+  <!--Enlazamos restaurante.js para la funcionabilidad a nuestra estructura-->
+  <script src="../js/restaurante.js"></script>
 </body>
 </html>

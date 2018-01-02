@@ -4,5 +4,3 @@ $(function() {
     window.location.href = 'views/restaurante.html';
   }, 2000);
 });
-
-
