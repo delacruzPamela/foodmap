@@ -11,7 +11,7 @@ $(document).ready(function() {
     $.each(data[district], function(nombreLocal) {
       var imagen = data[district][nombreLocal].logo;
       // var restaurantContainer = "<div class='restaurant-info collection col-xs-12 col-md-3'><a data-distrito='" + district + "' data-local= '" + nombreLocal + "' href ='#' data-toggle ='modal' data-target = '#infoModal'> <span class='caption'><span>" + nombreLocal + "</span><img class='center-block' src=' "+ imagen + "' alt='Info'></span></a></div>";
-      var restaurantContainer = "<div class='restaurant-info collection'><a data-distrito='" + district + "' data-local= '" + nombreLocal + "' href ='#' data-toggle ='modal' data-target ='#infoModal'> <span class='caption'><span>" + nombreLocal + "</span><img class='center-block' src=' "+ imagen + "' alt='Info'></span></a></div>";
+      var restaurantContainer = "<div class='restaurant-info collection'><a data-distrito='" + district + "' data-local= '" + nombreLocal + "' href ='#' data-toggle ='modal' data-target ='#infoModal'> <span class='caption'><span>" + nombreLocal + "</span><img class='center-block' src=' "+ imagen + "' alt='informacion'></span></a></div>";
       $('#list-restaurant .row .restaurant-container').append(restaurantContainer);
     });
   };
@@ -44,5 +44,4 @@ $(document).ready(function() {
   });
 
   // Modal información
-  
 });
